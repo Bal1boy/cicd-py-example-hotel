@@ -45,7 +45,7 @@ class TestHootel(object):
 
         submit_btn = self.browser.find_element(By.NAME, 'submit')
         submit_btn.click()
-        time.sleep(1)
+        # time.sleep(1)
 
         logout_btn = self.browser.find_element(By.ID, 'logout-link')
         allure.dynamic.description(f"email: {mail}, password: {password}")
