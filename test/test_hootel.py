@@ -30,7 +30,8 @@ class TestHootel(object):
     @allure.tag("login", "hootel", "selenium", "e2e")
     def test_login(self):
         mail = 'hiwasi1765@wisnick.com'
-        password = 'tesztelek2021'
+        # password = 'tesztelek2021'
+        password = 'incorrectpassword'
 
         login_btn = self.browser.find_element(By.XPATH, '//a[@class="nav-link"]')
         time.sleep(1)
