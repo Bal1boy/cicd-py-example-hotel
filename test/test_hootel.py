@@ -9,6 +9,10 @@ USERS = {
     'goodUser': {
         'email': 'hiwasi1765@wisnick.com',
         'password': 'tesztelek2021'
+    },
+    'badUser': {
+        'email': 'hiwasi1765@wisnick.com',
+        'password': 'incorrect'
     }
 }
 
@@ -41,11 +45,11 @@ class TestHootel(object):
 
         email_input = self.browser.find_element(By.ID, 'email')
         # email_input.send_keys('hiwasi1765@wisnick.com')
-        email_input.send_keys(USERS['goodUser']['email'])
+        email_input.send_keys(USERS['badUser']['email'])
 
         password_input = self.browser.find_element(By.ID, 'password')
         # password_input.send_keys('tesztelek2021')
-        password_input.send_keys(USERS['goodUser']['password'])
+        password_input.send_keys(USERS['badUser']['password'])
 
         submit_btn = self.browser.find_element(By.NAME, 'submit')
         submit_btn.click()
