@@ -1,0 +1,1 @@
+[{"uid":"80cc82ad04725d2e","name":"Szálláshelyek listázása","time":{"start":1789405925362,"stop":1789405926463,"duration":1101},"status":"passed","severity":"normal"},{"uid":"8b263d6bb403084b","name":"Hootel Login","time":{"start":1789405922147,"stop":1789405923479,"duration":1332},"status":"broken","severity":"critical"}]
